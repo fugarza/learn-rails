@@ -1,3 +1,8 @@
 <% provide(:title, "") %>
+<div class="center">
 <h1>Sample App</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<%= link_to image_tag("hi.jpg", size: "300x300"), 'http://rubyonrails.org' %>
+</br>
+</br>
+<%= link_to "Sign up now!", new_user_registration_path, class: "button [radius round]"  %>
+</div>

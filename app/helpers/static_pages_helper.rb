@@ -1,5 +1,5 @@
 module StaticPagesHelper
 	def random_pick
-		[1,2,3,4].sample
+		rand(100)
 	end
 end
